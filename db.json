@@ -1,0 +1,110 @@
+{
+  "contacts": [
+    {
+      "id": 0,
+      "name": "Morin Love",
+      "phone": "+1 (956) 442-3658"
+    },
+    {
+      "id": 1,
+      "name": "Sampson Lawson",
+      "phone": "+1 (902) 534-3920"
+    },
+    {
+      "id": 2,
+      "name": "Nelda Elliott",
+      "phone": "+1 (837) 572-3195"
+    },
+    {
+      "id": 3,
+      "name": "Ola Chaney",
+      "phone": "+1 (845) 470-2705"
+    },
+    {
+      "id": 4,
+      "name": "Michael Harris",
+      "phone": "+1 (838) 521-2218"
+    },
+    {
+      "id": 5,
+      "name": "Aida Hudson",
+      "phone": "+1 (940) 576-2004"
+    },
+    {
+      "id": 6,
+      "name": "Herring Rowland",
+      "phone": "+1 (866) 497-3922"
+    },
+    {
+      "id": 7,
+      "name": "Branch Solis",
+      "phone": "+1 (924) 517-2989"
+    },
+    {
+      "id": 8,
+      "name": "Briggs Roy",
+      "phone": "+1 (984) 449-3975"
+    },
+    {
+      "id": 9,
+      "name": "Pearl Hayes",
+      "phone": "+1 (875) 524-2043"
+    },
+    {
+      "id": 10,
+      "name": "Susie George",
+      "phone": "+1 (963) 535-3795"
+    },
+    {
+      "id": 11,
+      "name": "Bush Lucas",
+      "phone": "+1 (989) 568-3424"
+    },
+    {
+      "id": 12,
+      "name": "Rodgers Wise",
+      "phone": "+1 (872) 562-3603"
+    },
+    {
+      "id": 13,
+      "name": "Marion Morgan",
+      "phone": "+1 (847) 493-3942"
+    },
+    {
+      "id": 14,
+      "name": "Vance Guerra",
+      "phone": "+1 (849) 581-2315"
+    },
+    {
+      "id": 15,
+      "name": "Bowen Walsh",
+      "phone": "+1 (971) 528-2821"
+    },
+    {
+      "id": 16,
+      "name": "Wong Raymond",
+      "phone": "+1 (833) 437-3668"
+    },
+    {
+      "id": 17,
+      "name": "Gilliam Mccoy",
+      "phone": "+1 (811) 511-2490"
+    },
+    {
+      "id": 18,
+      "name": "Hattie Ewing",
+      "phone": "+1 (859) 534-3378"
+    },
+    {
+      "id": 19,
+      "name": "Helena Wong",
+      "phone": "+1 (936) 591-3705"
+    }
+  ],
+  "users": [
+    {
+      "user": "admin@example.com",
+      "password": "admin"
+    }
+  ]
+}

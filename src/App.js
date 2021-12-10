@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import SignIn from './pages/sign-in/sign-in.component';
+import ContactListPage from './pages/contact-list-page/contact-list-page.component';
+
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
+  const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
+  const onSignIn = () => {
+    localStorage.setItem("isAuth", JSON.stringify(true));
+    setIsAuth(true);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route path='/'>
+          {isAuth
+            ? <ContactListPage />
+            : <SignIn onSignIn={onSignIn} />
+          }
+        </Route>
+      </Switch>
     </div>
   );
 }
